@@ -47,7 +47,7 @@ function dinheiroPorCategoria(){
         if (!categorias[produto.categoria]) {
             categorias[produto.categoria] = 0;
         }
-        categorias[produto.categoria] += produto.preco * produto.estoque;
+        categorias[produto.categoria] += produto.preco;
         return categorias;
     }, {});
 }

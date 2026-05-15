@@ -2,7 +2,6 @@ import express from 'express'
 
 import { listarProdutos, listarPorCategoria, contarDinheiroEstoque, buscarProdutoPorId, buscarProdutoPorNome, buscarQuantidadeMenor10, top5ItensMaisCaros, maiorPreco, dinheiroPorCategoria } from './bd/servicos.js'
 
-
 const app = express()
 
 app.get('/', (req, res) => {
